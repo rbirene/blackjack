@@ -34,7 +34,7 @@ In order to focus on coding a simple functioning game of Blackjack instead of th
 - Assume only one player (and one dealer which is handled by the program)
 - Assume single deck used, and deck consists of 52 cards, shuffled to keep order random
   - Card can be taken off the deck and added to a hand
--Assume two cards are initially dealt for each opening hand (for player and dealer)
+- Assume two cards are initially dealt for each opening hand (for player and dealer)
   - Player’s hand is visible to player at each turn 
   - Only the first card from the dealer’s hand is visible to the player at each turn, the second card is hidden until the end of the game
 - Assume player chooses between two options at each turn:
@@ -98,4 +98,4 @@ There are multiple ways this project could be improved upon in the future:
 - Implement feature that ensures dealer will always HIT until hand total is 17 or more
 - Allow for multiple players to play the game at once
 - Implement a betting feature to allow players to bet (e.g. player has predefined number of chips which can be added to or subtracted based on gameplay)
-- Create a frontend to view a visual representation of the game and allow users to interact with the UI (e.g. HIT button on a React frontend sends feedback to Python backend to update player hand and total, removes need for user input in the terminal and reduces risk of invalid input if choosing predefined options)
+- Create a frontend to view a visual representation of the game and allow users to interact with the UI (e.g. HIT button on a React frontend sends feedback to Python backend to update player hand and total, removes need for user input in the terminal and reduces risk of invalid input by choosing from predefined options)
